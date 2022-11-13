@@ -1,4 +1,4 @@
-public:
+
 vector<long long> lcmAndGcd(long long A, long long B)
 {
     vector<long long> ans;
@@ -6,6 +6,4 @@ vector<long long> lcmAndGcd(long long A, long long B)
     ans.push_back(__gcd(A, B));
 
     return ans;
-}
-}
-;
+};
